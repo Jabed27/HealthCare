@@ -1,0 +1,103 @@
+a{
+    font-weight: 500;
+}
+
+.navbar{
+    font-weight: 500;
+    background-color: tomato;
+    
+}
+
+
+ 
+navbar-brand{
+    font-weight: 700;
+}
+
+.service-text {
+    font-size: 3vw;
+    font-weight: 500;
+     
+    
+
+}
+
+/* service banner */ 
+.service {
+    background-image: url("images/bg-1.jpg");
+    height: 180px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-color: mediumspringgreen;
+  }
+  
+  .service-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: brown;
+  }
+
+.card{
+    margin-top: 50px;
+}
+
+/* service images */
+
+.inner {
+    overflow: hidden;
+}
+
+.inner img{
+    transition: all 1.5s ease;
+}
+
+.inner:hover img{
+   transform: scale(1.5);
+}
+.midBannnercontainer{
+    margin-top: 100px;
+
+}
+
+.button {
+    margin-top: 50px;
+    margin-left: 45%;
+    background-color:BLUE;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+ /* vision */ 
+.card-group{
+    margin-top: 50px;
+}
+
+
+
+
+
+.footer {
+    margin-top: 50px;
+    bottom: 40px;
+    background-color: black;
+    color: white;
+    text-align: center;
+ }
+
+ .footer-text{
+     padding-top: 30px;
+     padding-bottom: 30px;
+     background-color: tomato;
+     color: brown;
+ }
+

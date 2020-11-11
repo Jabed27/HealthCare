@@ -1,0 +1,167 @@
+/* navbar-1 */
+a{
+    font-weight: 500;
+}
+
+.navbar{
+    font-weight: 500;
+    background-color: tomato;
+    
+}
+
+navbar-brand{
+    font-weight: 700;
+}
+/* banner */
+
+
+.carousel-item{
+    height: 750px;
+    min-height: 250px;
+    background: no-repeat center center scroll;
+    background-size: cover;  
+    
+}
+
+.carousel-caption{
+    bottom: 300px;
+}
+
+
+.carousel-caption h5{
+    font-size: 45px;
+    font-weight: 3vw;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    color: gold;
+ ;
+
+}
+
+.carousel-caption p{
+    width: 75%;
+    margin: auto;
+    font-size: 25px;
+    font-weight: 2vw;
+    line-height: 1.9;
+    color: gold;
+}
+
+
+/*   our service */
+
+.service {
+    margin-top: 50px; 
+    background-image: url(images/bg-1.jpg); 
+    height: 120px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-color: mediumspringgreen;
+
+  }
+  
+  .service-text {
+    text-align: center;
+    font-weight: bolder;
+    color: brown;
+    font-size: 3vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+
+.inner {
+    overflow: hidden;
+}
+
+.inner img{
+    transition: all 1.5s ease;
+}
+
+.inner:hover img{
+   transform: scale(1.5);
+}
+
+
+
+/* mid-banner */
+.midBannnercontainer{
+    margin-top: 100px;
+
+}
+
+.mid-banner {
+    margin-top: 70px; 
+    background-image: url(images/midBanner.jpg); 
+    height: 180px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-color: mediumspringgreen;
+    
+  }
+  
+  .mid-banner-text {
+    text-align: center;
+    font-size: 2vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: brown;
+  }
+
+  /* department */
+
+  .department {
+    margin-top: 50px; 
+    background-image:url(images/departmentBg.jpg) ;
+    height: 120px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-color: mediumspringgreen;
+
+  }
+  
+  .department-text {
+    text-align: center;
+    font-size: 3vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:brown;
+  }
+
+.card{
+    margin-top: 30px;
+}
+
+.card-group{
+    margin-top: 10px;
+}
+
+/* footer */
+
+.footer {
+    margin-top: 50px;
+    bottom: 40px;
+    background-color: black;
+    color: white;
+    text-align: center;
+ }
+
+ .footer-text{
+     padding-top: 30px;
+     padding-bottom: 30px;
+     background-color: tomato;
+     color: brown;
+ }

@@ -1,0 +1,25 @@
+body{
+	font-family: helvetica,sans-serif;
+	margin: 0;
+	padding: 0;
+	color: white;
+	
+}
+.big-banner{
+	background-image: url('../images/login.jpg');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	width: 100%;
+
+}
+.profile{
+	
+	text-align: center;
+	background:rgba(44,62,68,0.7);
+	padding: 50px;
+	width:470px;
+	margin: auto;
+	margin-top: 50px;
+	height: 500px;
+}
